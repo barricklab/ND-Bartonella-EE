@@ -1,0 +1,1 @@
+mkdir breseq_merged_output_csv; cd breseq_merged_output_gd; batch_run.pl -0 "gdtools COMPARE -r ../Bartonella.gff3 -o ../breseq_merged_output_csv/#d -f CSV #d"
